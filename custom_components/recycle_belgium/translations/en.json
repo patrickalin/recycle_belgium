@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Recycle Belgium",
+        "description": "Enter the address for which you want to retrieve the collection schedule.",
+        "data": {
+          "postal_code": "Postal code",
+          "street": "Street name",
+          "house_number": "House number"
+        }
+      }
+    },
+    "error": {
+      "invalid_postcode": "The postal code must contain exactly 4 digits.",
+      "invalid_house_number": "The house number is required.",
+      "cannot_connect": "Unable to validate this address with Recycle!. Check the postal code and exact street name, then try again."
+    },
+    "abort": {
+      "already_configured": "This address is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "verre": {
+        "name": "Glass"
+      },
+      "papier_carton": {
+        "name": "Paper and cardboard"
+      },
+      "organique": {
+        "name": "Organic waste"
+      },
+      "ordures": {
+        "name": "Residual waste"
+      },
+      "pmc": {
+        "name": "PMD"
+      }
+    }
+  }
+}

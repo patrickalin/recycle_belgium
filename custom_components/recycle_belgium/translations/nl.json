@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Recycle Belgium configureren",
+        "description": "Vul het adres in waarvoor je de afvalkalender wilt ophalen.",
+        "data": {
+          "postal_code": "Postcode",
+          "street": "Straatnaam",
+          "house_number": "Huisnummer"
+        }
+      }
+    },
+    "error": {
+      "invalid_postcode": "De postcode moet uit precies 4 cijfers bestaan.",
+      "invalid_house_number": "Het huisnummer is verplicht.",
+      "cannot_connect": "Dit adres kon niet worden gevalideerd bij Recycle!. Controleer de postcode en de exacte straatnaam en probeer opnieuw."
+    },
+    "abort": {
+      "already_configured": "Dit adres is al geconfigureerd."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "verre": {
+        "name": "Glas"
+      },
+      "papier_carton": {
+        "name": "Papier en karton"
+      },
+      "organique": {
+        "name": "GFT-afval"
+      },
+      "ordures": {
+        "name": "Restafval"
+      },
+      "pmc": {
+        "name": "PMD"
+      }
+    }
+  }
+}

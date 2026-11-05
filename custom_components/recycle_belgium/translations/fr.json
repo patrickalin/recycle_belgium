@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configuration de Recycle Belgium",
+        "description": "Indique l'adresse pour laquelle tu souhaites récupérer le calendrier des collectes.",
+        "data": {
+          "postal_code": "Code postal",
+          "street": "Nom de la rue",
+          "house_number": "Numéro de maison"
+        }
+      }
+    },
+    "error": {
+      "invalid_postcode": "Le code postal doit contenir exactement 4 chiffres.",
+      "invalid_house_number": "Le numéro de maison est obligatoire.",
+      "cannot_connect": "Impossible de valider cette adresse auprès de Recycle!. Vérifie le code postal et le nom exact de la rue, puis réessaie."
+    },
+    "abort": {
+      "already_configured": "Cette adresse est déjà configurée."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "verre": {
+        "name": "Verre"
+      },
+      "papier_carton": {
+        "name": "Papiers et cartons"
+      },
+      "organique": {
+        "name": "Déchets organiques"
+      },
+      "ordures": {
+        "name": "Ordures ménagères"
+      },
+      "pmc": {
+        "name": "PMC"
+      }
+    }
+  }
+}
