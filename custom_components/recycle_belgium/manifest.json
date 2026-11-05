@@ -10,8 +10,8 @@
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/patrickalin/recycle_belgium",
-  "issue_tracker": "https://github.com/patrickalin/recycle_belgium/issues",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/patrickalin/recycle_belgium/issues",
   "requirements": [],
   "version": "1.0.0"
 }
