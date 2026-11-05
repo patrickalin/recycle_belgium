@@ -25,11 +25,6 @@ from .const import (
 PLATFORMS = [Platform.SENSOR]
 
 
-async def async_setup(hass: HomeAssistant, config: dict) -> bool:
-    """Set up the integration."""
-    return True
-
-
 async def async_setup_entry(
     hass: HomeAssistant,
     entry: ConfigEntry,

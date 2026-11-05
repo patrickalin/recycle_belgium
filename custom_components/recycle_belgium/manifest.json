@@ -1,7 +1,12 @@
 {
   "domain": "recycle_belgium",
   "name": "Recycle Belgium",
-  "codeowners": ["@patrickalin"],
+  "categories": [
+    "local_services"
+  ],
+  "codeowners": [
+    "@patrickalin"
+  ],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/patrickalin/recycle_belgium",
