@@ -1,22 +1,64 @@
+i
 # ♻️ Recycle Belgium
-
-**A Home Assistant integration for Belgian waste collection calendars.**
-
-![Recycle Belgium](custom_components/recycle_belgium/brand/logo.png)
 
 [![HACS](https://img.shields.io/badge/HACS-Custom%20Integration-41BDF5.svg)](https://hacs.xyz/)
 [![GitHub Release](https://img.shields.io/github/v/release/patrickalin/recycle_belgium)](https://github.com/patrickalin/recycle_belgium/releases)
-[![GitHub Downloads](https://img.shields.io/github/downloads/patrickalin/recycle_belgium/total)](https://github.com/patrickalin/recycle_belgium/releases)
 [![License](https://img.shields.io/github/license/patrickalin/recycle_belgium)](LICENSE)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2026.11.0%2B-blue)](https://www.home-assistant.io/)
 
 [![Open your Home Assistant instance and open a repository inside HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=patrickalin&repository=recycle_belgium&category=integration)
 
-A custom integration for [Home Assistant](https://www.home-assistant.io/) that retrieves Belgian waste collection dates using the public Recycle! / Fost Plus API.
+![Recycle Belgium](custom_components/recycle_belgium/brand/logo.png)
 
-Configure your Belgian address once and get your next collection dates directly in Home Assistant.
+## 🇧🇪 Présentation française
+
+**Recycle Belgium** est une intégration personnalisée pour [Home Assistant](https://www.home-assistant.io/) qui exploite l'API publique **Recycle! / Fost Plus** afin de récupérer le calendrier des collectes de déchets en Belgique.
+
+Elle permet d'intégrer automatiquement les dates de ramassage des poubelles directement dans Home Assistant, à partir de votre code postal, de votre rue et de votre numéro de maison.
+
+Retrouvez notamment les prochaines collectes de :
+- 🌿 Déchets organiques
+- 🗑️ Ordures ménagères
+- 📰 Papiers et cartons
+- ♻️ PMC
+- 🍾 Verre
+
+Les informations sont actualisées automatiquement toutes les 6 heures. Aucune clé API ni aucun compte n'est nécessaire.
+
+## 🇳🇱 Nederlandse beschrijving
+
+**Recycle Belgium** is een aangepaste integratie voor [Home Assistant](https://www.home-assistant.io/) die gebruikmaakt van de publieke **Recycle! / Fost Plus API** om de afvalophaalkalender in België op te halen.
+
+Hiermee kunt u de ophaaldagen van uw afval rechtstreeks in Home Assistant integreren. U hoeft alleen uw postcode, straatnaam en huisnummer in te voeren.
+
+De integratie ondersteunt onder andere:
+- 🌿 GFT-afval
+- 🗑️ Restafval
+- 📰 Papier en karton
+- ♻️ PMD
+- 🍾 Glas
+
+De gegevens worden automatisch om de 6 uur bijgewerkt. Er is geen API-sleutel of account nodig.
+
+## 🇬🇧 English description
+
+**Recycle Belgium** is a custom [Home Assistant](https://www.home-assistant.io/) integration that uses the public **Recycle! / Fost Plus API** to retrieve Belgian waste collection schedules.
+
+It brings your local waste collection calendar directly into Home Assistant. Simply configure your Belgian postal code, street and house number to receive upcoming collection dates.
+
+Supported waste categories include:
+- 🌿 Organic waste
+- 🗑️ Residual waste
+- 📰 Paper and cardboard
+- ♻️ PMC / PMD
+- 🍾 Glass
+
+Data is automatically refreshed every 6 hours. No API key or account is required.
 
 ---
+
+## ✨ Features
+
 
 ## ✨ Features
 
